@@ -6,5 +6,5 @@ services:
       - "8024:8024"
       - "8124:8124"
     volumes:
-      - ./axonserver/data:/data
-      - ./axonserver/events:/eventdata
+      - ./axonserver/data:/axonserver/data
+      - ./axonserver/events:/axonserver/events
