@@ -1,0 +1,5 @@
+rootProject.name = 'axon-project'
+
+include 'common-api'
+include 'order-command-service'
+include 'order-query-service'

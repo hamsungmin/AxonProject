@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: order-command-service
+
+axon:
+  axonserver:
+    servers: localhost:8124
