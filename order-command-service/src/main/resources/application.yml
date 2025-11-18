@@ -8,3 +8,7 @@ spring:
 axon:
   axonserver:
     servers: localhost:8124
+  serializer:
+    general: jackson
+    messages: jackson
+    events: jackson
