@@ -17,6 +17,11 @@ repositories {
 
 dependencies {
     // Use JUnit Jupiter for testing.
+    implementation 'org.axonframework:axon-messaging:4.9.3'
+    implementation 'org.axonframework:axon-modelling:4.9.3'
+
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
     testImplementation libs.junit.jupiter
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
